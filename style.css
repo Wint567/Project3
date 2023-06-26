@@ -1,9 +1,14 @@
+.header_line{
+    border-bottom: 1px solid #CCCCCC;
+}
+
 .header-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 2.125rem;
+    padding-bottom: 2.125rem;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -35,6 +40,7 @@
     margin-right: 42px;
 }
 
+
 .buttons .log_in {
     padding: 0 36px;
     margin-right: 10px;
@@ -64,10 +70,7 @@
     cursor: pointer;
 }
 
-.border_line {
-    margin-top: 1.563rem;
-    border: 1px solid #CCCCCC;
-}
+
 
 .Accelerate{
     width: 100%;
